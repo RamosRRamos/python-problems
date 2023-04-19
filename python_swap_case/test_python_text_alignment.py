@@ -4,13 +4,13 @@ from python_swap_case.python_swap_case import swap_case
 def test_swap_case():
     """
     These tests cover:
-    A basic example ("Hello World")
-    A case with no letters ("123")
+    A basic example "Hello World"
+    A case with no letters "123"
     An empty string
     A more complex example with
-    mixed case ("hElLo wOrLd")
+    mixed case "hElLo wOrLd"
     An example with all uppercase
-    ("AbCdEfG")
+    "AbCdEfG"
     A longer example with various characters,
     including spaces and punctuation.
 
