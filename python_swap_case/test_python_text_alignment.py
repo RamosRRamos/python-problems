@@ -19,4 +19,5 @@ def test_swap_case():
     assert swap_case("hElLo wOrLd") == "HeLlO WoRlD"
     assert swap_case("AbCdEfG") == "aBcDeFg"
     assert swap_case(
-        "This is a long string with spaces and punctuation!@#$%^&*()_-+=") == "tHIS IS A LONG STRING WITH SPACES AND PUNCTUATION!@#$%^&*()_-+="
+        "This is a long string with spaces and punctuation!@#$%^&*()_-+=") == \
+           "tHIS IS A LONG STRING WITH SPACES AND PUNCTUATION!@#$%^&*()_-+="

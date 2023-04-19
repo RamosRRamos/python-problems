@@ -5,12 +5,16 @@ from vending_machine.vending_machine import VendingMachine
 
 class VendingMachineTest(unittest.TestCase):
     """
-        The first test (test_has_money) checks whether the has_money method returns the correct boolean value when
+        The first test (test_has_money) checks whether the has_money method
+        returns the correct boolean value when
         given a certain amount of money and required items.
-        The second test (test_has_items) checks whether the has_items method returns the correct boolean value
+        The second test (test_has_items) checks whether the has_items
+        method returns the correct boolean value
         when given a required number of items.
-        The third test (test_buy) tests the buy method for three cases: buying with not enough items,
-        buying with not enough money, and buying successfully. After the successful buy,
+        The third test (test_buy) tests the buy method for three cases:
+        buying with not enough items,
+        buying with not enough money, and buying successfully. After
+        the successful buy,
         it checks whether the num_items attribute was updated correctly.
 
     """

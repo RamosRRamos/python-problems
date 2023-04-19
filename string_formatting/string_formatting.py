@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/python-string-formatting/problem?isFullScreen=true
+# https://www.hackerrank.com/challenges/python-string-formatting/problem
 
 
 def print_formatted(number):
@@ -6,7 +6,8 @@ def print_formatted(number):
     for i in range(number):
         i += 1
         print(
-            f'{str(i).rjust(w)} {oct(i)[2:].rjust(w)} {hex(i)[2:].upper().rjust(w)} {bin(i)[2:].rjust(w)}')
+            f'{str(i).rjust(w)} {oct(i)[2:].rjust(w)} '
+            f'{hex(i)[2:].upper().rjust(w)} {bin(i)[2:].rjust(w)}')
 
 
 if __name__ == '__main__':
