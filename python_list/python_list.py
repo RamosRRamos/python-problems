@@ -1,4 +1,5 @@
-# URL: https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true
+# URL:
+# https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true
 
 # LIST #
 

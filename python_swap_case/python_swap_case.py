@@ -8,7 +8,7 @@ def swap_case(s: str):
             d.append(s[c].lower())
         else:
             d.append(s[c].upper())
-        c = c+1
+        c = c + 1
     return "".join(d)
 
 

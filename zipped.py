@@ -2,7 +2,6 @@
 
 if __name__ == '__main__':
 
-
     x = input()
     lines, column = int(x.split(' ')[0]), int(x.split(' ')[1])
 
@@ -16,11 +15,8 @@ if __name__ == '__main__':
         for x in range(len(students[t])):
             students[t][x] = float(students[t][x])
 
-
     student_zip = list(zip(*students))
 
     for student in student_zip:
         value = sum(student) / column
         print(value)
-
-

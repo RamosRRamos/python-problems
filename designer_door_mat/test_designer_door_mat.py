@@ -1,6 +1,6 @@
+import sys
 import unittest
 from io import StringIO
-import sys
 
 from designer_door_mat.designer_door_mat import DesignerDoorMat
 

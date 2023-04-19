@@ -15,7 +15,8 @@ class TestSplitAndJoin(unittest.TestCase):
 
            """
         self.assertEqual(split_and_join("Hello World"), "Hello-World")
-        self.assertEqual(split_and_join("This is a sentence."), "This-is-a-sentence.")
+        self.assertEqual(split_and_join("This is a sentence."),
+                         "This-is-a-sentence.")
 
 
 if __name__ == '__main__':

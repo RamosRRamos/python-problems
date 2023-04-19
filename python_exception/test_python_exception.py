@@ -1,6 +1,6 @@
+import sys
 import unittest
 from io import StringIO
-import sys
 
 from python_exception.python_exception import PythonExceptionCase
 

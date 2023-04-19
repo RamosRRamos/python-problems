@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/designer-door-mat/problem?isFullScreen=true
+# https://www.hackerrank.com/challenges/designer-door-mat/problem
 
 
 class DesignerDoorMat:

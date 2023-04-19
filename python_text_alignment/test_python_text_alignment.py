@@ -15,25 +15,36 @@ class TestTextAlignment(unittest.TestCase):
         command python -m unittest test_text_alignment.
 
     """
+
     def test_create(self):
         expected_output = StringIO()
         thickness = 5
         character = 'H'
 
         for i in range(thickness):
-            expected_output.write((character * i).rjust(thickness - 1) + character + (character * i).ljust(thickness - 1) + '\n')
+            expected_output.write(
+                (character * i).rjust(thickness - 1) + character + (
+                            character * i).ljust(thickness - 1) + '\n')
 
         for i in range(thickness + 1):
-            expected_output.write((character * thickness).center(thickness * 2) + (character * thickness).center(thickness * 6) + '\n')
+            expected_output.write(
+                (character * thickness).center(thickness * 2) + (
+                            character * thickness).center(thickness * 6) + '\n')
 
         for i in range((thickness + 1) // 2):
-            expected_output.write((character * thickness * 5).center(thickness * 6) + '\n')
+            expected_output.write(
+                (character * thickness * 5).center(thickness * 6) + '\n')
 
         for i in range(thickness + 1):
-            expected_output.write((character * thickness).center(thickness * 2) + (character * thickness).center(thickness * 6) + '\n')
+            expected_output.write(
+                (character * thickness).center(thickness * 2) + (
+                            character * thickness).center(thickness * 6) + '\n')
 
         for i in range(thickness):
-            expected_output.write(((character * (thickness - i - 1)).rjust(thickness) + character + (character * (thickness - i - 1)).ljust(thickness)).rjust(thickness * 6) + '\n')
+            expected_output.write(((character * (thickness - i - 1)).rjust(
+                thickness) + character + (character * (
+                        thickness - i - 1)).ljust(thickness)).rjust(
+                thickness * 6) + '\n')
 
         text_align = TextAlignment(thickness, character)
 

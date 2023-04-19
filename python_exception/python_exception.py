@@ -21,5 +21,3 @@ if __name__ == '__main__':
     t = int(input())
     py_exception_case = PythonExceptionCase(t)
     py_exception_case.perform_division()
-
-

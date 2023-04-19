@@ -1,9 +1,8 @@
-
 from python_string_validators.python_string_validators import wrap_
 
 
 def test_wrap_():
-    #TODO fix this test
+    # TODO fix this test
     """
     The first test case checks if the function correctly wraps
     the input string to the specified maximum width. The second
