@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed726b26-16a5-4bc5-88d2-b7938122da8f" name="Changes" comment="Alterações no zip">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed726b26-16a5-4bc5-88d2-b7938122da8f" name="Changes" comment="Alterações no zip" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +163,7 @@
       <workItem from="1675643836192" duration="16000" />
       <workItem from="1676384464131" duration="1699000" />
       <workItem from="1676398191411" duration="49000" />
-      <workItem from="1681916869966" duration="6504000" />
+      <workItem from="1681916869966" duration="6837000" />
     </task>
     <task id="LOCAL-00001" summary="Alterações no zip">
       <created>1675479354983</created>
@@ -210,7 +208,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/zipped.py</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
