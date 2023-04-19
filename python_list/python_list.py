@@ -51,9 +51,7 @@ class ListManipulator:
 
 
 if __name__ == '__main__':
-    #TODO Fix this for class
-    data_list = []
-    N = int(input())
-    for i in range(N):
-        re = get_list(input())
-        data_list = selector(re['index'], data_list, re['split'])
+
+    if __name__ == '__main__':
+        list_manipulator = ListManipulator()
+        list_manipulator.manipulate_list()
