@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed726b26-16a5-4bc5-88d2-b7938122da8f" name="Changes" comment="Alterações no zip">
-      <change afterPath="$PROJECT_DIR$/input/test_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_exception/test_python_exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_list/test_python_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_split_and_join/test_python_split_and_join.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_string_validators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_string_validators/test_python_string_validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_swap_case/test_python_text_alignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_text_alignment/test_python_text_alignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_formatting/test_string_formatting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_list/python_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_list/python_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_string-validators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/designer_door_mat/test_designer_door_mat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_string-validators/python_string-validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_string_validators/python_string_validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_text_alignment/python_text_alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_text_alignment/python_text_alignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer_door_mat/designer_door_mat.py" beforeDir="false" afterPath="$PROJECT_DIR$/designer_door_mat/designer_door_mat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer_door_mat/test_designer_door_mat.py" beforeDir="false" afterPath="$PROJECT_DIR$/designer_door_mat/test_designer_door_mat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/test_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/test_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_exception/python_exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_exception/python_exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_exception/test_python_exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_exception/test_python_exception.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +171,7 @@
       <workItem from="1675643836192" duration="16000" />
       <workItem from="1676384464131" duration="1699000" />
       <workItem from="1676398191411" duration="49000" />
-      <workItem from="1681916869966" duration="4849000" />
+      <workItem from="1681916869966" duration="5895000" />
     </task>
     <task id="LOCAL-00001" summary="Alterações no zip">
       <created>1675479354983</created>
