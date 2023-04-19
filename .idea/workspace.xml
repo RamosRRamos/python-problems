@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed726b26-16a5-4bc5-88d2-b7938122da8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/designer_door_mat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_formatting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="ed726b26-16a5-4bc5-88d2-b7938122da8f" name="Changes" comment="Alterações no zip">
+      <change afterPath="$PROJECT_DIR$/designer_door_mat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_exception/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_list/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_split_and_join/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_string-validators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_swap_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_text_alignment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string_formatting/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vending_machine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vending_machine/test_vending_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vending_machine/vending_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_problems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_problems.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer_door_mat.py" beforeDir="false" afterPath="$PROJECT_DIR$/designer_door_mat/designer_door_mat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_exception/python_exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_list/python_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_split_and_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_split_and_join/python_split_and_join.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_string-validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_string-validators/python_string-validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_swap_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_swap_case/python_swap_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_text_alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_text_alignment/python_text_alignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_formatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_formatting/string_formatting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -34,15 +58,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/projects/code_repository/python/python_problems"
+    "last_opened_file_path": "C:/projects/code_repository/python/python_problems",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\code_repository\python\python_problems" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\code_repository\python\python_problems\vending_machine" />
+      <recent name="C:\projects\code_repository\python\python_problems\string_formatting" />
+      <recent name="C:\projects\code_repository\python\python_problems\python_text_alignment" />
+      <recent name="C:\projects\code_repository\python\python_problems\python_swap_case" />
+      <recent name="C:\projects\code_repository\python\python_problems\python_string-validators" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.string_formatting">
+  <component name="RunManager" selected="Python.vending_machine">
     <configuration name="designer_door_mat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +92,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/designer_door_mat.py" />
+      <option name="SCRIPT_NAME" value="C:\projects\code_repository\python\python_problems\designer_door_mat\designer_door_mat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,51 +114,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="python_string-validators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_string-validators.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="python_text_alignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_text_alignment.py" />
+      <option name="SCRIPT_NAME" value="C:\projects\code_repository\python\python_problems\python_list\python_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +136,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string_formatting.py" />
+      <option name="SCRIPT_NAME" value="C:\projects\code_repository\python\python_problems\string_formatting\string_formatting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vending_machine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\projects\code_repository\python\python_problems\vending_machine\vending_machine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zipped" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zipped.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.vending_machine" />
+        <item itemvalue="Python.zipped" />
         <item itemvalue="Python.string_formatting" />
         <item itemvalue="Python.python_list" />
         <item itemvalue="Python.designer_door_mat" />
-        <item itemvalue="Python.python_text_alignment" />
-        <item itemvalue="Python.python_string-validators" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +211,19 @@
       <workItem from="1666295284727" duration="2267000" />
       <workItem from="1666369132399" duration="35000" />
       <workItem from="1668354337625" duration="1054000" />
+      <workItem from="1675643836192" duration="16000" />
+      <workItem from="1676384464131" duration="1699000" />
+      <workItem from="1676398191411" duration="49000" />
+      <workItem from="1681916869966" duration="1018000" />
     </task>
+    <task id="LOCAL-00001" summary="Alterações no zip">
+      <created>1675479354983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675479354983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,30 +240,41 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alterações no zip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterações no zip" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python_list.py</url>
+          <url>file://$PROJECT_DIR$/python_list/python_list.py</url>
           <line>16</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python_swap_case.py</url>
+          <url>file://$PROJECT_DIR$/python_swap_case/python_swap_case.py</url>
           <line>6</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zipped.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_problems$main.coverage" NAME="main Coverage Results" MODIFIED="1666288211200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$python_swap_case.coverage" NAME="python_swap_case Coverage Results" MODIFIED="1666291903468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$designer_door_mat.coverage" NAME="designer_door_mat Coverage Results" MODIFIED="1674355790928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$Vending_Machine.coverage" NAME="Vending Machine Coverage Results" MODIFIED="1676384498613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$string_formatting.coverage" NAME="string_formatting Coverage Results" MODIFIED="1668355616832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$python_string_validators.coverage" NAME="python_string-validators Coverage Results" MODIFIED="1666293466303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$python_exception.coverage" NAME="python_exception Coverage Results" MODIFIED="1666290480256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_problems$python_text_alignment.coverage" NAME="python_text_alignment Coverage Results" MODIFIED="1666293943592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_problems$python_list.coverage" NAME="python_list Coverage Results" MODIFIED="1668354347720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_problems$python_exception.coverage" NAME="python_exception Coverage Results" MODIFIED="1666290480256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_problems$python_string_validators.coverage" NAME="python_string-validators Coverage Results" MODIFIED="1666293466303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_problems$python_swap_case.coverage" NAME="python_swap_case Coverage Results" MODIFIED="1666291903468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_problems$designer_door_mat.coverage" NAME="designer_door_mat Coverage Results" MODIFIED="1666297504953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_problems$string_formatting.coverage" NAME="string_formatting Coverage Results" MODIFIED="1668354864629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$zipped.coverage" NAME="zipped Coverage Results" MODIFIED="1675479300788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_problems$main.coverage" NAME="main Coverage Results" MODIFIED="1666288211200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
