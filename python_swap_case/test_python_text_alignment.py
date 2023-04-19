@@ -7,11 +7,15 @@ def test_swap_case():
     A basic example ("Hello World")
     A case with no letters ("123")
     An empty string
-    A more complex example with mixed case ("hElLo wOrLd")
-    An example with all uppercase ("AbCdEfG")
-    A longer example with various characters, including spaces and punctuation.
+    A more complex example with
+    mixed case ("hElLo wOrLd")
+    An example with all uppercase
+    ("AbCdEfG")
+    A longer example with various characters,
+    including spaces and punctuation.
 
-    :return: return a string with a swap to upper for lower and lower for upper
+    :return: return a string with a swap to upper
+    for lower and lower for upper
     """
     assert swap_case("Hello World") == "hELLO wORLD"
     assert swap_case("123") == "123"
