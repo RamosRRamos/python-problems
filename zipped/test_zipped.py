@@ -1,6 +1,3 @@
-import io
-import sys
-
 from zipped.zipped import StudentStatistics
 
 
