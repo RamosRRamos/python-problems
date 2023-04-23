@@ -1,26 +1,22 @@
-import sys
 import unittest
-from io import StringIO
 
 from input.input import InputCase
 
 
-class InputCaseTest(unittest.TestCase):
+class TestInputCase(unittest.TestCase):
+
     def test_evaluate_input(self):
-        test_input = '2 3\n2 + 3j\n'
-        expected_output = 'True\n'
+        # Test case 1
+        input_case = InputCase(1, 4, 'x**3 + x**2 + x + 1')
+        self.assertTrue(input_case.evaluate_input())
 
-        x, k = map(float, test_input.strip().split()[:2])
-        value = eval(test_input.strip().split()[2])
-        input_case = InputCase(x, k, value)
+        # Test case 2
+        input_case = InputCase(2, 10, '2*x**2 + 2*x + 2')
+        self.assertFalse(input_case.evaluate_input())
 
-        # Redirect stdout to capture output
-        captured_output = StringIO()
-        sys.stdout = captured_output
+        # Test case 3
+        input_case = InputCase(-1, 15, '-x**2 + 16')
+        self.assertTrue(input_case.evaluate_input())
 
-        input_case.evaluate_input()
-
-        # Reset stdout
-        sys.stdout = sys.__stdout__
-
-        self.assertEqual(captured_output.getvalue(), expected_output)
+if __name__ == '__main__':
+    unittest.main()

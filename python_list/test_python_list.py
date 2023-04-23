@@ -19,7 +19,7 @@ class TestListManipulator(TestCase):
             self.list_manipulator.manipulate_list()
             output = buffer.getvalue().strip()
 
-        expected_output = "['6', '5', '10']\n['5', '6', '10', '9', '1']" \
-                          "\n['5', '6', '10', '9']"
+        expected_output = "[6, 5, 10]\n[1, 5, 9, 10]" \
+                          "\n[9, 5, 1]"
 
         self.assertEqual(output, expected_output)

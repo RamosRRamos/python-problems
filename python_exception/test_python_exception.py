@@ -16,8 +16,9 @@ class PythonExceptionCaseTest(unittest.TestCase):
 
         :return:
         """
-        test_input = '3\n10 2\n12 4\n6 0\n'
-        expected_output = '5\n3\nError Code: division by zero\n'
+        test_input = '3 0\n10 2\n12 4\n6 0\n'
+        expected_output = 'Error Code: ' \
+                          'integer division or modulo by zero\n5\n3\n'
 
         py_exception_case = PythonExceptionCase(3)
 

@@ -6,6 +6,13 @@ class TextAlignment:
         self.character = character
 
     def create(self):
+        """
+        This is a method called create which prints out a cone shape
+        made of a given character with a specified thickness.
+        The method uses loops to print out each part of the cone,
+        including the top cone, top and bottom pillars, middle belt, a
+        nd bottom cone.
+        """
         # Top Cone
         for i in range(self.thickness):
             print((self.character * i).rjust(

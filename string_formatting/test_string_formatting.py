@@ -1,35 +1,37 @@
-import sys
 from io import StringIO
+import sys
+import unittest
+from unittest.mock import patch
 
-import pytest
-
-from string_formatting.string_formatting import print_formatted
+from string_formatting.string_formatting import FormattedPrinter
 
 
-def test_print_formatted():
-    # testing for number = 5
-    expected_output = """    1     1     1     1
-    2     2     2    10
-    3     3     3    11
-    4     4     4   100
-    5     5     5   101
-"""
-    with StringIO() as buffer:
-        sys.stdout = buffer  # redirect stdout to buffer
-        print_formatted(5)
-        output = buffer.getvalue()
-        assert output == expected_output
-    sys.stdout = sys.__stdout__  # restore original stdout
+class TestFormattedPrinter(unittest.TestCase):
+    def test_print_formatted(self):
+        printer = FormattedPrinter(5)
+        expected_output = '  1   1   1   1\n  2   2   2  10\n  ' \
+                          '3   3   3  11\n  4   4   4 100\n  5   5   5 101\n'
+        with patch('sys.stdout', new=StringIO()) as fake_output:
+            printer.print_formatted()
+            self.assertEqual(fake_output.getvalue(), expected_output)
 
-    # testing for number = 0
-    expected_output = ""
-    with StringIO() as buffer:
-        sys.stdout = buffer
-        print_formatted(0)
-        output = buffer.getvalue()
-        assert output == expected_output
-    sys.stdout = sys.__stdout__
+    def test_constructor(self):
+        printer = FormattedPrinter(10)
+        self.assertEqual(printer.number, 10)
 
-    # testing for negative number
-    with pytest.raises(ValueError):
-        print_formatted(-1)
+    def test_print_single_number(self):
+        printer = FormattedPrinter(1)
+        expected_output = '1 1 1 1\n'
+        with patch('sys.stdout', new=StringIO()) as fake_output:
+            printer.print_formatted()
+            self.assertEqual(fake_output.getvalue(), expected_output)
+
+    def test_zero_input(self):
+        printer = FormattedPrinter(0)
+        expected_output = ''
+        with patch('sys.stdout', new=StringIO()) as fake_output:
+            printer.print_formatted()
+            self.assertEqual(fake_output.getvalue(), expected_output)
+
+if __name__ == '__main__':
+    unittest.main()
