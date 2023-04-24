@@ -28,12 +28,12 @@ class TestTextAlignment(unittest.TestCase):
         for i in range(thickness):
             expected_output.write(
                 (character * i).rjust(thickness - 1) + character + (
-                            character * i).ljust(thickness - 1) + '\n')
+                        character * i).ljust(thickness - 1) + '\n')
 
         for i in range(thickness + 1):
             expected_output.write(
                 (character * thickness).center(thickness * 2) + (
-                            character * thickness).center(thickness * 6) + '\n')
+                        character * thickness).center(thickness * 6) + '\n')
 
         for i in range((thickness + 1) // 2):
             expected_output.write(
@@ -42,12 +42,12 @@ class TestTextAlignment(unittest.TestCase):
         for i in range(thickness + 1):
             expected_output.write(
                 (character * thickness).center(thickness * 2) + (
-                            character * thickness).center(thickness * 6) + '\n')
+                        character * thickness).center(thickness * 6) + '\n')
 
         for i in range(thickness):
             expected_output.write(((character * (thickness - i - 1)).rjust(
                 thickness) + character + (character * (
-                        thickness - i - 1)).ljust(thickness)).rjust(
+                    thickness - i - 1)).ljust(thickness)).rjust(
                 thickness * 6) + '\n')
 
         text_align = TextAlignment(thickness, character)

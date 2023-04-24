@@ -35,6 +35,7 @@ class ListManipulator:
         Main program logic that reads inputs, parses them, and executes
         the corresponding operation on the data list.
     """
+
     def __init__(self):
         self.data_list = []
 
@@ -50,8 +51,6 @@ class ListManipulator:
         :return:
         """
         self.data_list.insert(int(args[0]), int(args[1]))
-
-
 
     def remove(self, args: list) -> None:
         """
@@ -84,6 +83,7 @@ class ListManipulator:
         it is called. The code is written in Python.
         """
         print(self.data_list)
+
     def sort(self, *args) -> None:
         """
         This is a method called sort that belongs to a class.

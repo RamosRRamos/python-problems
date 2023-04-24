@@ -2,7 +2,7 @@
 
 class StringManipulator:
 
-    def __init__(self,  line_):
+    def __init__(self, line_):
         # initialize any class variables here
         self.line = line_
 

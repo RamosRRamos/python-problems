@@ -65,6 +65,7 @@ class InputCase:
         print(self.value == self.k)
         return self.value == self.k
 
+
 if __name__ == '__main__':
     x, k = map(float, input().strip().split())
     value = input()

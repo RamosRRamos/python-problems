@@ -13,5 +13,3 @@ def test_wrap_():
     # Case 3: String with newlines
     w = Wrapper("hello\nworld", 5)
     assert w.wrap_() == "hello\nworld"
-
-

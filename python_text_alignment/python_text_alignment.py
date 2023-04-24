@@ -17,13 +17,13 @@ class TextAlignment:
         for i in range(self.thickness):
             print((self.character * i).rjust(
                 self.thickness - 1) + self.character + (
-                              self.character * i).ljust(self.thickness - 1))
+                          self.character * i).ljust(self.thickness - 1))
 
         # Top Pillars
         for i in range(self.thickness + 1):
             print(
                 (self.character * self.thickness).center(self.thickness * 2) + (
-                            self.character * self.thickness).center(
+                        self.character * self.thickness).center(
                     self.thickness * 6))
 
         # Middle Belt
@@ -35,14 +35,14 @@ class TextAlignment:
         for i in range(self.thickness + 1):
             print(
                 (self.character * self.thickness).center(self.thickness * 2) + (
-                            self.character * self.thickness).center(
+                        self.character * self.thickness).center(
                     self.thickness * 6))
 
         # Bottom Cone
         for i in range(self.thickness):
             print(((self.character * (self.thickness - i - 1)).rjust(
                 self.thickness) + self.character + (
-                               self.character * (self.thickness - i - 1)).ljust(
+                           self.character * (self.thickness - i - 1)).ljust(
                 self.thickness)).rjust(self.thickness * 6))
 
 

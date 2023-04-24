@@ -1,5 +1,5 @@
-from io import StringIO
 import unittest
+from io import StringIO
 from unittest.mock import patch
 
 from string_formatting.string_formatting import FormattedPrinter
@@ -31,6 +31,7 @@ class TestFormattedPrinter(unittest.TestCase):
         with patch('sys.stdout', new=StringIO()) as fake_output:
             printer.print_formatted()
             self.assertEqual(fake_output.getvalue(), expected_output)
+
 
 if __name__ == '__main__':
     unittest.main()

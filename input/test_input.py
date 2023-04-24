@@ -18,5 +18,6 @@ class TestInputCase(unittest.TestCase):
         input_case = InputCase(-1, 15, '-x**2 + 16')
         self.assertTrue(input_case.evaluate_input())
 
+
 if __name__ == '__main__':
     unittest.main()
