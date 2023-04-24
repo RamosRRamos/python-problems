@@ -14,16 +14,16 @@ class TestDesignerDoorMat(unittest.TestCase):
 
     def test_dashes(self):
         door_mat = DesignerDoorMat(7, 21)
-        self.assertEqual(door_mat._dashes(0), '----')
-        self.assertEqual(door_mat._dashes(1), '---')
-        self.assertEqual(door_mat._dashes(2), '--')
-        self.assertEqual(door_mat._dashes(3), '-')
+        self.assertEqual(door_mat._dashes(0), '---------')
+        self.assertEqual(door_mat._dashes(1), '------')
+        self.assertEqual(door_mat._dashes(2), '---')
+        self.assertEqual(door_mat._dashes(3), '')
 
     def test_dots(self):
         door_mat = DesignerDoorMat(7, 21)
-        self.assertEqual(door_mat._dots(0), '')
-        self.assertEqual(door_mat._dots(1), '.|.')
-        self.assertEqual(door_mat._dots(2), '.|..|.')
+        self.assertEqual(door_mat._dots(0), '.|.')
+        self.assertEqual(door_mat._dots(1), '.|..|..|.')
+        self.assertEqual(door_mat._dots(2), '.|..|..|..|..|.')
 
     def test_print_mat(self):
         n, m = 7, 21
